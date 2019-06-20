@@ -47,9 +47,13 @@ for i in range(len(b)):
     print(b[i] + "  :  " + str(np.isclose(first,second)))
 ```
 **Output:**
-periodical  :  True\\
-extension  :  False\\
-zero-padding  :  True\\
+
+periodical  :  True
+
+extension  :  False
+
+zero-padding  :  True
+
 mirror  :  False
 
 ***Proof:***
@@ -77,9 +81,12 @@ for i in range(len(b)):
 ```
 **Output**
 
-periodical  :  True\\
-extension  :  False\\
-zero-padding  :  False\\
+periodical  :  True
+
+extension  :  False
+
+zero-padding  :  False
+
 mirror  :  False
 
 ***Proof:***
